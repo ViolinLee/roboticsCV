@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(udacity_bot)
+project(my_sweeping_bot)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -145,7 +145,7 @@ include_directories(
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/udacity_bot_node.cpp)
-add_executable(navigation_goal src/navigation_goal.cpp)
+add_executable(bot_navigation_goal src/bot_navigation_goal.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -161,7 +161,7 @@ add_executable(navigation_goal src/navigation_goal.cpp)
 # target_link_libraries(${PROJECT_NAME}_node
 #   ${catkin_LIBRARIES}
 # )
-target_link_libraries(navigation_goal ${catkin_LIBRARIES})
+target_link_libraries(bot_navigation_goal ${catkin_LIBRARIES})
 
 #############
 ## Install ##

@@ -68,7 +68,17 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        castor:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         chassis:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        fake_castor:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -100,7 +110,7 @@ Visualization Manager:
       Visual Enabled: true
     - Alpha: 0.699999988
       Class: rviz/Map
-      Color Scheme: map
+      Color Scheme: costmap
       Draw Behind: false
       Enabled: true
       Name: Map
@@ -187,16 +197,16 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 13.2573547
+      Distance: 10.8503323
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.0599999987
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 1.30403233
-        Y: 1.6853174
-        Z: -0.246433824
+        X: -0.58362639
+        Y: -0.000144678168
+        Z: 0.190327317
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.0500000007
       Invert Z Axis: false
@@ -223,5 +233,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1200
-  X: 57
-  Y: -18
+  X: 56
+  Y: -44
