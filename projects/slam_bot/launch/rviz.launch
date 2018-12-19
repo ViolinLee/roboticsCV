@@ -3,5 +3,5 @@
 <!-- For visualising your robots map bulding in RVIZ -->
 
 <launch>
-  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find slam_project)/launch/config/robot_slam.rviz"/>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find udacity_bot)/launch/config/robot_slam.rviz"/>
 </launch>
