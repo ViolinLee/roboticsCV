@@ -6,7 +6,7 @@
   <arg name="rgb_topic"   default="/camera/rgb/image_raw"/>
   <arg name="depth_topic" default="/camera/depth/image_raw"/>
   <arg name="camera_info_topic" default="/camera/rgb/camera_info"/>
-  <arg name="scan_topic" default="/udacity_bot/laser/scan">
+  <arg name="scan_topic" default="/udacity_bot/laser/scan"/>
 
 
   <!-- Mapping Node -->
@@ -15,7 +15,7 @@
 
       <!-- Basic RTAB-Map Parameters -->
       <param name="database_path"       type="string" value="$(arg database_path)"/>
-      <param name="frame_id"            type="string" value="base_footprint"/>
+      <param name="frame_id"            type="string" value="robot_footprint"/>
       <param name="odom_frame_id"       type="string" value="odom"/>
       <param name="subscribe_depth"     type="bool"   value="true"/>
       <param name="subscribe_scan"      type="bool"   value="true"/>
