@@ -21,7 +21,7 @@
       <param name="subscribe_scan"      type="bool"   value="true"/>
 
       <!-- RTAB-Map Inputs -->
-      <remap from="scan"            to="$(arg scan_topic)"/>
+      <remap from="scan"            to="/udacity_bot/laser/scan"/>
       <remap from="rgb/image"       to="$(arg rgb_topic)"/>
       <remap from="depth/image"     to="$(arg depth_topic)"/>
       <remap from="rgb/camera_info" to="$(arg camera_info_topic)"/>
@@ -34,6 +34,7 @@
 
       <!-- 2D SLAM -->
       <param name="Reg/Force3DoF" type="string" value="true"/>      
+      <param name="Grid/FromDepth" type="string" value="false"/>
 
       <!-- Loop Closure Detection -->
       <!-- 0=SURF 1=SIFT 2=ORB 3=FAST/FREAK 4=FAST/BRIEF 5=GFTT/FREAK 6=GFTT/BRIEF 7=BRISK 8=GFTT/ORB 9=KAZE -->

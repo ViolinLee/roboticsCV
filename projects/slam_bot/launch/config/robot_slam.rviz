@@ -267,7 +267,7 @@ Visualization Manager:
       Size (Pixels): 3
       Size (m): 0.01
       Style: Squares
-      Topic: /scan
+      Topic: /udacity_bot/laser/scan
       Use Fixed Frame: true
       Use rainbow: true
       Value: true
