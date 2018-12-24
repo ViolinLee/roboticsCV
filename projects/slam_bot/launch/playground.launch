@@ -4,6 +4,14 @@
   
   <include file="$(find udacity_bot)/launch/robot_description.launch"/>
 
+  <!-- Robot pose -->
+  <arg name="x" default="0"/>
+  <arg name="y" default="0"/>
+  <arg name="z" default="0.1"/>
+  <arg name="roll" default="0"/>
+  <arg name="pitch" default="0"/>
+  <arg name="yaw" default="0"/>
+
   <arg name="world" default="empty"/> 
   <arg name="paused" default="false"/>
   <arg name="use_sim_time" default="true"/>
@@ -23,6 +31,9 @@
   <!--spawn a robot in gazebo world-->
 
   <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" 
-  output="screen" args="-urdf -param robot_description -model udacity_bot"/>
+  output="screen" args="-urdf -param robot_description -model udacity_bot 
+                        -x $(arg x) -y $(arg y) -z $(arg z)
+                        -R $(arg roll) -P $(arg pitch) -Y $(arg yaw)"/>
 
 </launch>
+
