@@ -32,8 +32,8 @@ int main(int argc, char** argv){
   ROS_INFO("Sending pich up zone");
   ac.sendGoal(goal);
 
-  // Wait an infinite time for the results
-  ac.waitForResult();
+  // Wait 30 seconds for the results
+  ac.waitForResult(ros::Duration(90.0));
 
   // Check if the robot reached pick up zone
   if(ac.getState() == actionlib::SimpleClientGoalState::SUCCEEDED) {
@@ -43,15 +43,15 @@ int main(int argc, char** argv){
 
     // Define the drop off zone position and orientation for the robot to reach
     goal.target_pose.pose.position.x = 4.5;
-    goal.target_pose.pose.position.y = 8;
-    goal.target_pose.pose.orientation.w = 0.0;
+    goal.target_pose.pose.position.y = 7;
+    goal.target_pose.pose.orientation.w = 1.0;
 
     // Send the drop off zone position and orientation for the robot to reach
     ROS_INFO("Sending drop off zone");
     ac.sendGoal(goal);
 
-    // Wait an infinite time for the results
-    ac.waitForResult();
+    // Wait 30 seconds for the results
+    ac.waitForResult(ros::Duration(90.0));
 
     // Check if the robot reached drop off zone
     if(ac.getState() == actionlib::SimpleClientGoalState::SUCCEEDED) {
@@ -64,3 +64,4 @@ int main(int argc, char** argv){
 
   return 0;
 }
+
