@@ -84,7 +84,15 @@ Environment perception, behavior decision-making and action are the three import
 - [ScrewPicker](https://github.com/T-Kuhn/ScrewPicker) T-Kuhn
 
 
-## Forum / Community
+## Forum / Community 
+### Robotics Research
+- [Pieter Abbeel](http://people.eecs.berkeley.edu/~pabbeel/)
+
+
+
+### CV Reserach
+
+
 
 
 
