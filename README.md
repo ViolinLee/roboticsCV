@@ -1,8 +1,8 @@
 Environment perception, behavior decision-making and action are the three important parts of robotics architecture. 
-##Robotics   
+## Robotics   
 ### Algorithm  
 - [PythonRobotics: Python sample codes for robotics algorithms](https://github.com/AtsushiSakai/PythonRobotics) AtsushiSakai
-[Kalman-and-Bayesian-Filters-in-Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python) rlabbe
+- [Kalman-and-Bayesian-Filters-in-Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python) rlabbe
 
 
 
@@ -29,45 +29,8 @@ Environment perception, behavior decision-making and action are the three import
 - [robotics-toolbox-matlab](https://github.com/petercorke/robotics-toolbox-matlab) petercorke
 
 
-
-
-##Computer Vision   
-### Algorithm  
-- [daily-paper-computer-vision](https://github.com/amusi/daily-paper-computer-vision) amusi   
-
-
-
-
-### Notes
-- [awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision) jbhuang0604
-- [Programming Assignments and Lectures for Stanford's CS 231](https://github.com/khanhnamle1994/computer-vision) khanhnamle1994
-
-
-
-
-### Interview
-
-
-
-
-### Course / book / Code
-- [OpenCV3Cookbook](https://github.com/laganiere/OpenCV3Cookbook) laganiere
-
-
-
-
-### API
-- [OpenCV: Open Source Computer Vision Library](https://github.com/opencv/opencv) opencv.org   
-- [vlfeat: An open library of computer vision algorithms](https://github.com/vlfeat/vlfeat) vlfeat.org
-- [PCV: Open source Python module for computer vision](https://github.com/ViolinLee?tab=stars) jesolem
-
-
-
-
-
-
-##Projects
-
+## Project
+### Simulation
 
 
 ### Real Robot
