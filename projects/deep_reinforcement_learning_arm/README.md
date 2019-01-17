@@ -7,4 +7,4 @@ This project is based on the Nvidia open source project "jetson-reinforcement" d
 Click [Deep RL Arm Manipulation](https://github.com/udacity/RoboND-DeepRL-Project) to check the Project Homepage.
 
 ## Implementation
-Follow instruction in [README](https://github.com/udacity/RoboND-DeepRL-Project/blob/master/README.md) of Deep RL Arm Manipulation to accomplish the project. I have provided a reference implementation in this file. 
+Follow instruction in [README](https://github.com/udacity/RoboND-DeepRL-Project/blob/master/README.md) of Deep RL Arm Manipulation to accomplish the project. I have provided a reference implementation in this [file](http://https://github.com/ViolinLee/roboticsCV/tree/master/projects/deep_reinforcement_learning_arm/project_master/c). 
