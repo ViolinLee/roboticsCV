@@ -51,7 +51,7 @@ robotGrid = [];
 for j = 2:N % You will start estimating myPose from j=2 using ranges(:,2).
     W = repmat(1.0/M, [1, M]);    % reset the weights every cycle
     P = repmat(myPose(:,j-1), [1, M]);
-    %P(1:2, :) = P(1:2, :) + radius * [cos(P(3, 1:M)); -sin(P(3, 1:M))];
+    P(1:2, :) = P(1:2, :) + radius * [cos(P(3, 1:M)); -sin(P(3, 1:M))];
     
     % 1) Propagate the particles 
     for m = 1:M
