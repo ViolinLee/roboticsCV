@@ -27,14 +27,14 @@ n = size(scanAngles); % Row number:divisions number of single measurement --> nu
 
 % Decide the number of particles, M.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-M = 500;                       % Please decide a reasonable number of M, 
+M = 300;                       % Please decide a reasonable number of M, 
                                % based on your experiment using the practice data.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Create M number of particles
 P = repmat(myPose(:,1), [1, M]);
 
 % System model parameters
-noise_sigma = diag([0.03 0.03 0.03]); % System noise covariance
+noise_sigma = diag([0.05 0.05 0.03]); % System noise covariance
 noise_mu = [0 0 0];
 radius = 0.02; % Consider robot movement (advanced prediction method can be using kalman filter)
 
