@@ -1,0 +1,1 @@
+Simulink Control Systems demo named 'eom' may conflict with eom.m!
