@@ -1,22 +1,63 @@
 Environment perception, behavior decision-making and action are the three important parts of robotics architecture. 
 ## Robotics   
+### My Notes
+1.Kinematics
+
+
+- DH Parameter    
+- Forward Kinematics    
+- Inverse Kinematics    
+
+
+2.Dynamics / Mobility / Control   
+
+Dynamics Modeling   
+
+Control: PID   
+
+Control: LQR   
+
+    
+3.Computational Motion Planning   
+Planning as Search   
+Representation    
+From Grids to Graphs   
+
+
+
+   
+4.Estimation and Learning   
+Sensors   
+Filters: Kalman Filter   
+Filters: Particle Filter      
+
+
+    
+5.Perception     
+Camera: Model  
+Camera: Parameters and Calibration   
+Mapping: 2D Occupancy Grid Mapping   
+     
+SLAM:    
+
+
+6.Robotics System Deployment   
+Embedded system     
+
+
+
 ### Algorithm  
 - [PythonRobotics: Python sample codes for robotics algorithms](https://github.com/AtsushiSakai/PythonRobotics) AtsushiSakai
+- [MATLABRobotics](https://github.com/AtsushiSakai/MATLABRobotics) AtsushiSakai
 - [Kalman-and-Bayesian-Filters-in-Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python) rlabbe
+- [Practical Guide to State-space Control](https://github.com/calcmogul/state-space-guide)
 
 
 
-
-### Notes
+### Summary
 - [Recent_SLAM_Research](https://github.com/YiChenCityU/Recent_SLAM_Research) YiChenCityU
 - [robotics-coursework: A curated collection of places where you can learn robotics, algorithms, and other useful tools for aspiring robotics software engineers.](https://github.com/mithi/robotics-coursework) mithi
 - [awesome-robotics: A list of awesome Robotics resources](https://github.com/kiloreux/awesome-robotics) kiloreux
-
-
-
-
-### Interview
-
 
 
 
@@ -31,6 +72,17 @@ Environment perception, behavior decision-making and action are the three import
 
 ## Project
 ### Simulation
+deeplearning drone tracking   
+robotic inference   
+kuka kr210 pick&place   
+MIP control   
+pr2 perception   
+search and sample return   
+slam bot   
+sweeping bot     
+home service robot   
+adaptable polishing toolhead   
+deep reinforcement learning arm   
 
 
 ### Real Robot
@@ -53,7 +105,7 @@ Environment perception, behavior decision-making and action are the three import
 
 
 
-### CV Reserach
+
 
 
 
