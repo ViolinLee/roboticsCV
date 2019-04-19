@@ -6,7 +6,8 @@ function [ predictx, predicty, state, param ] = kalmanFilter( t, x, y, state, pa
     % P = eye(4)
     % R = eye(2)
 
-    % Check if the first time running this function
+    % Check if the first time running this function. 
+    % If yes, set initial state .
     if previous_t<0
         state = [x, y, 0, 0];
         param.P = 0.1 * eye(4);

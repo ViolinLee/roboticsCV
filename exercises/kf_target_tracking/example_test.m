@@ -1,4 +1,4 @@
- % Robotics: Estimation and Learning 
+% Robotics: Estimation and Learning 
 % WEEK 2
 % 
 % This script is to help run your algorithm and visualize the result from it.
