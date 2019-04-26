@@ -17,7 +17,7 @@ Ty = T0tool(2,4);
 Tz = T0tool(3,4);
 
 num = 1;
-[th2min, th2max, th3min, th3max, th4min, th4max] = deal(-20, 20, -20, 20, 0, 60);
+[th2min, th2max, th3min, th3max, th4min, th4max] = deal(-10, 10, -10, 10, 0, 60);
 inter = 2;
 p_num = (th2max/inter - th2min/inter + 1) * (th3max/inter - th3min/inter + 1) * (th4max/inter - th4min/inter + 1);
 point = zeros(1, p_num);
