@@ -1,0 +1,555 @@
+<robot
+  name="cougarbot_sw2urdf">
+  <link
+    name="base">
+    <inertial>
+      <origin
+        xyz="-4.58049603537686E-17 -1.1498738469332E-16 0.4"
+        rpy="0 0 0" />
+      <mass
+        value="280" />
+      <inertia
+        ixx="26.3666666666667"
+        ixy="-2.53130849614536E-15"
+        ixz="6.697891400224E-32"
+        iyy="20.7666666666667"
+        iyz="2.51650552248369E-16"
+        izz="17.2666666666667" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cougarbot_sw2urdf/meshes/base.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cougarbot_sw2urdf/meshes/base.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="rack">
+    <inertial>
+      <origin
+        xyz="-5.31932292919011E-19 0 0.25"
+        rpy="0 0 0" />
+      <mass
+        value="0.15707963267949" />
+      <inertia
+        ixx="0.00327641933830635"
+        ixy="0"
+        ixz="-2.52757298433515E-52"
+        iyy="0.00327641933830635"
+        iyz="-7.588784500269E-37"
+        izz="7.85398163397448E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cougarbot_sw2urdf/meshes/rack.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cougarbot_sw2urdf/meshes/rack.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="fixed_rack"
+    type="fixed">
+    <origin
+      xyz="0 0.25 0.8"
+      rpy="0 0 0" />
+    <parent
+      link="base" />
+    <child
+      link="rack" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="camera">
+    <inertial>
+      <origin
+        xyz="-0.0294947233503947 5.82991399987742E-05 -0.00210745084696717"
+        rpy="0 0 0" />
+      <mass
+        value="0.558921619084291" />
+      <inertia
+        ixx="0.00293323328134704"
+        ixy="-9.33465490301262E-07"
+        ixz="-5.72128548880662E-06"
+        iyy="0.000231766967567304"
+        iyz="-6.72424296962743E-08"
+        izz="0.00302678311799815" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cougarbot_sw2urdf/meshes/camera.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cougarbot_sw2urdf/meshes/camera.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="camera_joint"
+    type="fixed">
+    <origin
+      xyz="0.026845 0 0.5535"
+      rpy="-2.841E-17 0 0" />
+    <parent
+      link="rack" />
+    <child
+      link="camera" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="camera_rgbd_frame" />
+  <joint
+    name="camera_rgbd_frame_joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="-1.5708 2.841E-17 -1.5708" />
+    <parent
+      link="camera" />
+    <child
+      link="camera_rgbd_frame" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="1.55035718607044E-18 -2.77555756156289E-17 0.025"
+        rpy="0 0 0" />
+      <mass
+        value="2.65464579228338" />
+      <inertia
+        ixx="0.011768929679123"
+        ixy="-3.85185988877447E-34"
+        ixz="0"
+        iyy="0.011768929679123"
+        iyz="0"
+        izz="0.0224317569447945" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cougarbot_sw2urdf/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cougarbot_sw2urdf/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="fixed_base"
+    type="fixed">
+    <origin
+      xyz="0 -0.15 0.8"
+      rpy="0 0 -2.22044604925031E-16" />
+    <parent
+      link="base" />
+    <child
+      link="base_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="torso">
+    <inertial>
+      <origin
+        xyz="3.35686345799579E-19 0 0.2"
+        rpy="0 0 0" />
+      <mass
+        value="18.0938065388096" />
+      <inertia
+        ixx="0.306349903760852"
+        ixy="-3.94357854772437E-09"
+        ixz="-1.16008335330836E-17"
+        iyy="0.306349897413123"
+        iyz="5.75130931311888E-18"
+        izz="0.130288090952972" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cougarbot_sw2urdf/meshes/torso.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cougarbot_sw2urdf/meshes/torso.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hip"
+    type="revolute">
+    <origin
+      xyz="0 0 0.05"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="torso" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="upper_arm">
+    <inertial>
+      <origin
+        xyz="-1.11022302462516E-16 -2.77555756156289E-17 0.2"
+        rpy="0 0 0" />
+      <mass
+        value="8.04071004732223" />
+      <inertia
+        ixx="0.120032517340225"
+        ixy="0"
+        ixz="8.67361737988404E-19"
+        iyy="0.120032507215952"
+        iyz="1.04083408558608E-17"
+        izz="0.0257358874415033" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cougarbot_sw2urdf/meshes/upper_arm.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cougarbot_sw2urdf/meshes/upper_arm.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="shoulder"
+    type="revolute">
+    <origin
+      xyz="0 0 0.4"
+      rpy="-7.6374E-16 0.90484 -0.44656" />
+    <parent
+      link="torso" />
+    <child
+      link="upper_arm" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="lower_arm">
+    <inertial>
+      <origin
+        xyz="2.22044604925031E-16 -1.11022302462516E-16 0.2"
+        rpy="0 0 0" />
+      <mass
+        value="8.04071004732222" />
+      <inertia
+        ixx="0.120032517340225"
+        ixy="3.46944695195361E-18"
+        ixz="-2.10335221462188E-17"
+        iyy="0.120032507215952"
+        iyz="8.67361737988404E-18"
+        izz="0.0257358874415032" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cougarbot_sw2urdf/meshes/lower_arm.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cougarbot_sw2urdf/meshes/lower_arm.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="elbow"
+    type="revolute">
+    <origin
+      xyz="0 0 0.4"
+      rpy="-8.7527E-16 0.47803 4.8453E-16" />
+    <parent
+      link="upper_arm" />
+    <child
+      link="lower_arm" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="hand">
+    <inertial>
+      <origin
+        xyz="2.22044604925031E-16 -5.55111512312578E-17 0.200055370326349"
+        rpy="0 0 0" />
+      <mass
+        value="3.14070908065597" />
+      <inertia
+        ixx="0.0438171501216372"
+        ixy="6.50521303491303E-19"
+        ixz="-2.72405795836983E-18"
+        iyy="0.0438171450595006"
+        iyz="-1.0842021724855E-19"
+        izz="0.00392697102863508" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cougarbot_sw2urdf/meshes/hand.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cougarbot_sw2urdf/meshes/hand.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wrist"
+    type="revolute">
+    <origin
+      xyz="0 0 0.4"
+      rpy="1.78E-15 0.25851 3.0504E-16" />
+    <parent
+      link="lower_arm" />
+    <child
+      link="hand" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="hood">
+    <inertial>
+      <origin
+        xyz="4.44089209850063E-16 -5.55111512312578E-17 0.0299999999999998"
+        rpy="0 0 0" />
+      <mass
+        value="1.44" />
+      <inertia
+        ixx="0.005232"
+        ixy="1.28749007982654E-19"
+        ixz="2.71050543121376E-19"
+        iyy="0.00216"
+        iyz="-1.0842021724855E-19"
+        izz="0.006528" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cougarbot_sw2urdf/meshes/hood.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cougarbot_sw2urdf/meshes/hood.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="fixed_hood"
+    type="fixed">
+    <origin
+      xyz="0 0 0.4"
+      rpy="3.3307E-16 2.2898E-16 3.8164E-17" />
+    <parent
+      link="hand" />
+    <child
+      link="hood" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="virtual_frame">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.000523598775598299" />
+      <inertia
+        ixx="5.23598775598299E-09"
+        ixy="-1.29246970711411E-26"
+        ixz="-7.75481824268463E-26"
+        iyy="5.23598775598299E-09"
+        iyz="0"
+        izz="5.23598775598299E-09" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cougarbot_sw2urdf/meshes/virtual_frame.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cougarbot_sw2urdf/meshes/virtual_frame.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="virtual_frame_joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0.4"
+      rpy="0 6.93889390390723E-18 0" />
+    <parent
+      link="hood" />
+    <child
+      link="virtual_frame" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>
