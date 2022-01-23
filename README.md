@@ -1,29 +1,29 @@
 Environment perception, behavior decision-making and action are the three important parts of robotics architecture. 
 
 ## Robotics   
-### My Notes
-**1.Kinematics**
+### 1 My Notes
+**(1) Kinematics**
 
 - DH Parameter    
 - Forward Kinematics    
 - Inverse Kinematics    
 
 
-**2.Dynamics / Mobility / Control**
+**(2) Dynamics / Mobility / Control**
 
 - Dynamics Modeling   
 - Control: PID   
 - Control: LQR   
 
 
-**3.Computational Motion Planning**
+**(3) Computational Motion Planning**
 
 - Planning as Search   
 - Representation    
 - From Grids to Graphs   
 
 
-**4.Estimation and Learning**  
+**(4) Estimation and Learning**  
 
 - Sensors   
 - Filters: Kalman Filter   
@@ -31,7 +31,7 @@ Environment perception, behavior decision-making and action are the three import
 
 
     
-**5.Perception**    
+**(5) Perception**    
 
 - Camera: Model  
 - Camera: Parameters and Calibration   
@@ -39,37 +39,51 @@ Environment perception, behavior decision-making and action are the three import
 - SLAM:    
 
 
-**6.Robotics System Deployment**  
+**(6) Robotics System Deployment**  
 
 - Embedded (Hardware)
 - Operation system (Software)
 
-### Algorithm  
+### 2 Algorithm  
 - [PythonRobotics: Python sample codes for robotics algorithms](https://github.com/AtsushiSakai/PythonRobotics) AtsushiSakai
 - [MATLABRobotics](https://github.com/AtsushiSakai/MATLABRobotics) AtsushiSakai
 - [Kalman-and-Bayesian-Filters-in-Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python) rlabbe
 - [Practical Guide to State-space Control](https://github.com/calcmogul/state-space-guide)
 
 
+### 3 HardWare
 
-### Summary
+**Control Board**  
+
+- [Arduino](https://www.arduino.cc/)
+- [Teensy](https://www.pjrc.com/teensy/)   
+- [Raspberry Pi](https://www.raspberrypi.org/)  
+- [OpenCR Hardware](https://github.com/ViolinLee/OpenCR-Hardware) ROBOTIS GIT
+
+
+### 4 Software
+**Framework**   
+
+- [Robot Operating System](https://www.ros.org/) ROS
+
+### 5 Summary
 - [Recent_SLAM_Research](https://github.com/YiChenCityU/Recent_SLAM_Research) YiChenCityU
 - [robotics-coursework: A curated collection of places where you can learn robotics, algorithms, and other useful tools for aspiring robotics software engineers.](https://github.com/mithi/robotics-coursework) mithi
 - [awesome-robotics: A list of awesome Robotics resources](https://github.com/kiloreux/awesome-robotics) kiloreux
 
 
 
-### book / Code
+### 6 Book / Code
 - [rosbook](https://github.com/osrf/rosbook) osrf
 - [ROS-Robotics-Projects](https://github.com/PacktPublishing/ROS-Robotics-Projects) PacktPublishing
 
-### Course
+### 7 Course
 
 - [ModernRobotics: Mechanics, Planning, and Control](https://github.com/NxRLab/ModernRobotics) NxRLab
 - [Couusera Robotics Specializations](https://www.coursera.org/specializations/robotics) Peen
 - [Udacity: School of Autonomous Systems](https://www.udacity.com/school-of-autonomous-systems) Udacity
 
-### API
+### 8 API
 - [robotics-toolbox-matlab](https://github.com/petercorke/robotics-toolbox-matlab) petercorke
 
 
