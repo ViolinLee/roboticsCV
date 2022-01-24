@@ -2,28 +2,28 @@ Environment perception, behavior decision-making and action are the three import
 
 ## Robotics   
 ### 1 My Notes
-**(1) Kinematics**
+**1.1 Kinematics**
 
 - DH Parameter    
 - Forward Kinematics    
 - Inverse Kinematics    
 
 
-**(2) Dynamics / Mobility / Control**
+**1.2 Dynamics / Mobility / Control**
 
 - Dynamics Modeling   
 - Control: PID   
 - Control: LQR   
 
 
-**(3) Computational Motion Planning**
+**1.3 Computational Motion Planning**
 
 - Planning as Search   
 - Representation    
 - From Grids to Graphs   
 
 
-**(4) Estimation and Learning**  
+**1.4 Estimation and Learning**  
 
 - Sensors   
 - Filters: Kalman Filter   
@@ -31,7 +31,7 @@ Environment perception, behavior decision-making and action are the three import
 
 
     
-**(5) Perception**    
+**1.5 Perception**    
 
 - Camera: Model  
 - Camera: Parameters and Calibration   
@@ -39,7 +39,7 @@ Environment perception, behavior decision-making and action are the three import
 - SLAM:    
 
 
-**(6) Robotics System Deployment**  
+**1.6 Robotics System Deployment**  
 
 - Embedded (Hardware)
 - Operation system (Software)
@@ -53,12 +53,15 @@ Environment perception, behavior decision-making and action are the three import
 
 ### 3 HardWare
 
-**Control Board**  
+**Control Board/Chip**  
 
 - [Arduino](https://www.arduino.cc/)
+- [PyBoard](http://micropython.org/) Micropython   
+- [NodeMCU (ESP32 Based)](https://nodemcu.readthedocs.io/en/release/)   
 - [Teensy](https://www.pjrc.com/teensy/)   
 - [Raspberry Pi](https://www.raspberrypi.org/)  
 - [OpenCR Hardware](https://github.com/ViolinLee/OpenCR-Hardware) ROBOTIS GIT
+- [JETSON NANO](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/) NVIDIA   
 
 
 ### 4 Software
@@ -87,8 +90,7 @@ Environment perception, behavior decision-making and action are the three import
 - [robotics-toolbox-matlab](https://github.com/petercorke/robotics-toolbox-matlab) petercorke
 
 
-## Project
-### Simulation
+### 9 Simulation
 - deeplearning drone tracking   
 - robotic inference   
 - kuka kr210 pick&place   
@@ -102,21 +104,40 @@ Environment perception, behavior decision-making and action are the three import
 - deep reinforcement learning arm   
 
 
-### Real Robot
-- [Hexapod7697](https://github.com/SmallpTsai/hexapod-v2-7697) SmallpTsai
-- [PiHexa18](https://github.com/ViolinLee/PiHexa18) ViolinLee
-- [openDog](https://github.com/XRobots/openDog) XRobots
-- [katarina: Parrot drone Bebop](https://github.com/robotika/katarina) robotika
-- [drone_project](https://github.com/mdepero/drone_project) mdepero
+### 10 Real Robot
+
+**10.1 Manipulator Arm/Serial Robot**
+
 - [BCN3D-Moveo](https://github.com/BCN3D/BCN3D-Moveo) BCN3D
 - [Thor:DIY 3D Printable Robotic Arm](https://github.com/AngelLM/Thor) AngelLM
-- [johnny-five](https://github.com/rwaldron/johnny-five) rwaldron
-- [AutoRCCar](https://github.com/hamuchiwa/AutoRCCar) hamuchiwa, [AutoRCCar(cn)](https://github.com/zhaoying9105/AutoRCCar) zhaoying9105
 - [AR2](https://github.com/Chris-Annin/AR2) Chris-Annin
 - [BetaBots-Robot-Arm-Project](https://github.com/4ndreas/BetaBots-Robot-Arm-Project) 4ndreas
 - [poppy-ergo-jr](https://github.com/poppy-project/poppy-ergo-jr) poppy-project
 - [ScrewPicker](https://github.com/T-Kuhn/ScrewPicker) T-Kuhn
 
+**10.2 Parallel Robot**
+
+**10.3 Hexapod/Quadruped (Spider)**   
+
+- [Hexapod7697](https://github.com/SmallpTsai/hexapod-v2-7697) SmallpTsai
+- [PiHexa18](https://github.com/ViolinLee/PiHexa18) ViolinLee
+
+**10.4 Quadruped (Dog)**   
+
+- [openDog](https://github.com/XRobots/openDog) XRobots
+
+**10.5 QuadCopter**
+
+- [katarina: Parrot drone Bebop](https://github.com/robotika/katarina) robotika
+- [drone_project](https://github.com/mdepero/drone_project) mdepero
+
+**10.6 Self-Balanced Car**
+
+**10.7 Smart Car**
+
+- [AutoRCCar](https://github.com/hamuchiwa/AutoRCCar) hamuchiwa,
+- [AutoRCCar(cn)](https://github.com/zhaoying9105/AutoRCCar) zhaoying9105
+- [johnny-five](https://github.com/rwaldron/johnny-five) rwaldron
 
 ## Forum / Community 
 ### Robotics Research
