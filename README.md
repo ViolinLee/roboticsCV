@@ -102,6 +102,7 @@ Environment perception, behavior decision-making and action are the three import
 - home service robot   
 - adaptable polishing toolhead   
 - deep reinforcement learning arm   
+- [Mini Cheetah](https://github.com/Derek-TH-Wang/quadruped_ctrl) Derek-TH-Wang
 
 
 ### 10 Real Robot
@@ -117,6 +118,8 @@ Environment perception, behavior decision-making and action are the three import
 
 **10.2 Parallel Robot**
 
+
+
 **10.3 Hexapod/Quadruped (Spider)**   
 
 - [Hexapod7697](https://github.com/SmallpTsai/hexapod-v2-7697) SmallpTsai
@@ -124,6 +127,7 @@ Environment perception, behavior decision-making and action are the three import
 
 **10.4 Quadruped (Dog)**   
 
+- [Mini Cheetah](https://github.com/mit-biomimetics/Cheetah-Software) MIT Biomimetics
 - [openDog](https://github.com/XRobots/openDog) XRobots
 
 **10.5 QuadCopter**
@@ -133,9 +137,12 @@ Environment perception, behavior decision-making and action are the three import
 
 **10.6 Self-Balanced Car**
 
+- [ESP32 Wifi Balancing Robot](https://github.com/bluino/esp32_wifi_balancing_robot) bluino
+- [Node Balance](https://github.com/ViolinLee/NodeBlalance-C) ViolinLee
+
 **10.7 Smart Car**
 
-- [AutoRCCar](https://github.com/hamuchiwa/AutoRCCar) hamuchiwa,
+- [AutoRCCar](https://github.com/hamuchiwa/AutoRCCar) hamuchiwa
 - [AutoRCCar(cn)](https://github.com/zhaoying9105/AutoRCCar) zhaoying9105
 - [johnny-five](https://github.com/rwaldron/johnny-five) rwaldron
 
