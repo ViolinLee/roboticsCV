@@ -115,6 +115,7 @@ Environment perception, behavior decision-making and action are the three import
 - [BetaBots-Robot-Arm-Project](https://github.com/4ndreas/BetaBots-Robot-Arm-Project) 4ndreas
 - [poppy-ergo-jr](https://github.com/poppy-project/poppy-ergo-jr) poppy-project
 - [ScrewPicker](https://github.com/T-Kuhn/ScrewPicker) T-Kuhn
+- []() 
 
 **10.2 Parallel Robot**
 
@@ -124,11 +125,24 @@ Environment perception, behavior decision-making and action are the three import
 
 - [Hexapod7697](https://github.com/SmallpTsai/hexapod-v2-7697) SmallpTsai
 - [PiHexa18](https://github.com/ViolinLee/PiHexa18) ViolinLee
+- [Arduino Ant Hexapod Robot](https://howtomechatronics.com/projects/arduino-ant-hexapod-robot/) HowtoMechatronics
+- [Mega2560 Hexapod](https://markwtech.com/robots/hexapod/) Markwtech
+- [NodeQuad](https://github.com/ViolinLee/NodeQuad12-MicroPython) ViolinLee
+- [Arduino Phoenix](https://github.com/KurtE/Arduino_Phoenix_Parts) lynxmotion
 
 **10.4 Quadruped (Dog)**   
 
 - [Mini Cheetah](https://github.com/mit-biomimetics/Cheetah-Software) MIT Biomimetics
 - [openDog](https://github.com/XRobots/openDog) XRobots
+- [4-legged-robot-model](https://github.com/miguelasd688/4-legged-robot-model) miguelasd688
+- [py-apple-dynamics](https://github.com/ToanTech/py-apple-dynamics) ToanTech
+- [Mini Pupper](https://github.com/mangdangroboticsclub/QuadrupedRobot) mangdangroboticsclub 
+- [Spot Micro](https://github.com/mike4192/spotMicro) mike4192
+- [Stanford Quadruped](https://github.com/stanfordroboticsclub/StanfordQuadruped) stanfordroboticsclub
+- [open quadruped](https://github.com/adham-elarabawy/open-quadruped) Adham
+- [ROS Driver for Quadruped Robot](https://github.com/zlingkang/quadruped_9g) zlingkang
+- [ESP32_quadruped](https://github.com/PingguSoft/esp32_quadruped) PingguSoft
+
 
 **10.5 QuadCopter**
 
