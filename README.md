@@ -66,8 +66,10 @@ Environment perception, behavior decision-making and action are the three import
 
 ### 4 Software
 **Framework**   
-
 - [Robot Operating System](https://www.ros.org/) ROS
+
+**Simulation**   
+- [Bullet Real-Time Physics Simulation](https://pybullet.org/wordpress/) PyBullet
 
 ### 5 Summary
 - [Recent_SLAM_Research](https://github.com/YiChenCityU/Recent_SLAM_Research) YiChenCityU
@@ -88,20 +90,20 @@ Environment perception, behavior decision-making and action are the three import
 
 ### 8 API
 - [robotics-toolbox-matlab](https://github.com/petercorke/robotics-toolbox-matlab) petercorke
-
+- [robotics-toolbox-python](https://github.com/petercorke/robotics-toolbox-python) petercorke
 
 ### 9 Simulation
-- deeplearning drone tracking   
-- robotic inference   
-- kuka kr210 pick&place   
-- MIP control   
-- pr2 perception   
-- search and sample return   
-- slam bot   
-- sweeping bot     
-- home service robot   
-- adaptable polishing toolhead   
-- deep reinforcement learning arm   
+- [deeplearning drone tracking](projects/deeplearning_drone_tracking)   
+- [robotic inference](projects/robotic_inference)   
+- [kuka kr210 pick&place](projects/kuka_kr210_pick&place)   
+- [MIP control](projects/MIP_control)   
+- [pr2 perception](projects/pr2_perception)   
+- [search and sample return](projects/search_and_sample_return)   
+- [slam bot](projects/slam_bot)   
+- [sweeping bot](projects/sweeping_bot_localization)     
+- [home service robot](projects/home_service_robot)   
+- [adaptable polishing toolhead](projects/adaptable_polishing_toolhead)   
+- [deep reinforcement learning arm](projects/deep_reinforcement_learning_arm)   
 - [Mini Cheetah](https://github.com/Derek-TH-Wang/quadruped_ctrl) Derek-TH-Wang
 
 
