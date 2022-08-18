@@ -144,6 +144,7 @@ Environment perception, behavior decision-making and action are the three import
 - [open quadruped](https://github.com/adham-elarabawy/open-quadruped) Adham
 - [ROS Driver for Quadruped Robot](https://github.com/zlingkang/quadruped_9g) zlingkang
 - [ESP32_quadruped](https://github.com/PingguSoft/esp32_quadruped) PingguSoft
+- [Quad](https://github.com/alexandrospetkos/quad) alexandrospetkos
 
 
 **10.5 QuadCopter**
