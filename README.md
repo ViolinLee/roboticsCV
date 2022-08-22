@@ -91,6 +91,14 @@ Environment perception, behavior decision-making and action are the three import
 ### 8 API
 - [robotics-toolbox-matlab](https://github.com/petercorke/robotics-toolbox-matlab) petercorke
 - [robotics-toolbox-python](https://github.com/petercorke/robotics-toolbox-python) petercorke
+- [visual_kinematics](https://github.com/dbddqy/visual_kinematics) dbddqy
+- [Delta Kinematics Library](https://github.com/tinkersprojects/Delta-Kinematics-Library) Tinkers Projects
+- [Delta ik](https://gist.github.com/hugs/4231272) Jason Huggins
+- [Delta-Robot-Inverse-Kinematics](https://github.com/giridharanponnuvel/Delta-Robot-Inverse-Kinematics) giridharanponnuvel
+- [Delta Robot Forward/Inverse Kinematics Calculations](https://www.marginallyclever.com/other/samples/fk-ik-test.html) marginallyclever
+- [Rotary-Delta-Robot-Kinematics](https://github.com/12343954) 12343954
+- [A Delta Robot Simulator in Python](https://github.com/idoglanz/delta-robot) [blog version](https://blog.devgenius.io/building-a-delta-robot-dash-app-9bb6e6577c27) idoglanz
+
 
 ### 9 Simulation
 - [deeplearning drone tracking](projects/deeplearning_drone_tracking)   
@@ -117,10 +125,16 @@ Environment perception, behavior decision-making and action are the three import
 - [BetaBots-Robot-Arm-Project](https://github.com/4ndreas/BetaBots-Robot-Arm-Project) 4ndreas
 - [poppy-ergo-jr](https://github.com/poppy-project/poppy-ergo-jr) poppy-project
 - [ScrewPicker](https://github.com/T-Kuhn/ScrewPicker) T-Kuhn
-- []() 
+- [EEDURO Delta Robot](https://hw.eeros.org/eeduro/start) eeros.org
 
 **10.2 Parallel Robot**
-
+- [Delta Robot](https://github.com/isaac879/Delta-Robot) isaac879
+- [EEZYbotDELTA](https://www.thingiverse.com/thing:1249297) daGHIZmo
+- [Delta Robot](https://tm.101robotics.com/portfolio/delta-robot-1/) Tristan Muller
+- [Open Source Delta Robot](https://www.instructables.com/Delta-Robot-With-a-Custom-GUI-and-Image-Processing) TunMaker
+- [zaphod-bot](https://github.com/Scottapotamas/zaphod-bot) Scottapotamas
+- [Nindamani-the-weed-removal-robot](https://github.com/AutoRoboCulture/delta-robot-simulation-gazebo) AutoRoboCulture
+- []() 
 
 
 **10.3 Hexapod/Quadruped (Spider)**   
